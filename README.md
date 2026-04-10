@@ -1,1 +1,40 @@
-🏨 Hospitality Revenue & Occupancy Analytics📌 Project OverviewThis project delivers a comprehensive data analysis of a multi-city hospitality chain. The primary objective is to identify revenue leakages, analyze occupancy patterns, and provide actionable, data-driven business insights to optimize room pricing and improve overall market share.By transforming raw booking and property data into a structured format, this analysis empowers revenue management teams to make strategic decisions regarding dynamic pricing, cancellation policies, and customer retention.🛠️ Tech Stack & ToolsSQL: Data extraction, merging of dimension/fact tables, and initial data exploration.Python (Pandas, Matplotlib/Seaborn): Data cleaning, handling missing values, and exploratory data analysis (EDA).Excel: Initial data validation, data manipulation, and quick pivot summaries.Power BI & Tableau: Designing interactive executive dashboards to track key performance indicators (KPIs) and visualize revenue trends across cities and room classes.📊 Key Business Metrics (KPIs) AnalyzedIn the hospitality industry, specific metrics dictate the health of the business. This project tracks:RevPAR (Revenue Per Available Room): Assessing the financial performance of properties.ADR (Average Daily Rate): Tracking the average rental income per paid occupied room.Occupancy Rate (%): Monitoring the percentage of available rooms that are occupied across different timeframes (weekdays vs. weekends).Cancellation/No-Show Rate: Quantifying revenue leakage due to unfulfilled bookings.DSRN (Daily Sellable Room Nights): Measuring available room inventory capacity.💡 Key Insights & Findings(Example metrics—update with your actual project results)Revenue Leaders: [City Name] generates the highest overall revenue, while [City Name] exhibits the highest occupancy rate at [XX%].Platform Dependency: Direct offline bookings account for only [X%] of revenue, indicating a high reliance on third-party booking platforms.Revenue Leakage: The overall cancellation rate stands at [XX%], resulting in an estimated revenue loss of [X] Million. Stricter cancellation policies for premium rooms are highly recommended.Weekend vs. Weekday: Occupancy surges to [XX%] on weekends compared to [XX%] on weekdays. Implementing targeted corporate/weekday discounts could balance utilization.Room Category Performance: Elite rooms secure the highest volume of bookings ([XX%]), but Presidential rooms yield the highest profit margin per booking.
+Here is a detailed README.md file layout written in raw Markdown format. You can copy the code block below and paste it directly into your GitHub README.md file.
+
+I've included placeholders like [XX] and [Link] so you can easily plug in your specific project numbers and links.
+
+Markdown
+# 🏨 Hospitality Revenue & Occupancy Analytics
+
+## 📌 Project Overview
+This project focuses on providing data-driven intelligence for a multi-city hotel chain experiencing a decline in market share and revenue. By analyzing historical booking data, the objective is to identify critical revenue leakages, analyze occupancy patterns, and deliver actionable insights to optimize dynamic pricing and improve overall operational efficiency.
+
+## 🎯 Problem Statement
+The hospitality client was losing competitive advantage and revenue due to ineffective pricing strategies, uneven room utilization, and high cancellation rates. The goal of this end-to-end analysis is to track critical industry performance metrics, uncover patterns in customer behavior, and recommend strategic adjustments to help the business regain its market share.
+
+## 🛠️ Tech Stack
+* **Data Processing & EDA:** Python (Pandas, Matplotlib, Seaborn), SQL, Excel
+* **Data Visualization & Reporting:** Power BI, Tableau
+
+## 📊 Key Performance Indicators (KPIs) Tracked
+This project monitors the following core hospitality metrics:
+* **RevPAR (Revenue Per Available Room):** Evaluates the overall financial health and performance of the properties.
+* **ADR (Average Daily Rate):** Measures the average rental revenue earned per paid occupied room.
+* **Occupancy Rate (%):** Assesses room utilization across different cities, room classes, weekdays, and weekends.
+* **Cancellation Rate:** Quantifies revenue lost to unfulfilled bookings and no-shows.
+* **DSRN (Daily Sellable Room Nights):** Tracks available room inventory and capacity limits.
+
+## 💡 Key Findings & Recommendations
+* **Revenue Protection:** Discovered significant revenue leakage resulting from an overall cancellation rate of **[XX]%**. 
+  * *Recommendation:* Implement stricter cancellation policies and non-refundable rates, particularly for premium room categories.
+* **Demand Patterns:** Identified a stark contrast between high weekend occupancy (**[XX]%**) and low weekday utilization (**[XX]%**). 
+  * *Recommendation:* Introduce targeted corporate discounts, business-traveler packages, and weekday promotional events.
+* **Channel Performance:** Found a heavy reliance on third-party booking platforms, which accounted for **[XX]%** of bookings, leading to high commission payouts. 
+  * *Recommendation:* Optimize direct marketing efforts and offer loyalty incentives to drive direct website bookings.
+
+## 📂 Repository Structure
+```text
+├── Data/                 # Raw and cleaned datasets (dim_date, fact_bookings, etc.)
+├── Notebooks/            # Python Jupyter Notebooks detailing data cleaning and EDA
+├── Dashboards/           # Interactive Power BI (.pbix) and Tableau (.twbx) reports
+├── Presentation/         # Executive slide deck summarizing business insights
+└── README.md             # Project documentation and setup guide
